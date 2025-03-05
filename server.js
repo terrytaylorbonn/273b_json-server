@@ -9,5 +9,5 @@ server.use(cors()); // Add this line to enable CORS
 server.use(middlewares);
 server.use(router);
 server.listen(port, () => {
-  console.log(`JSON Server is running on port ${port}`);
+  console.log(`JSON Server v2 is running on port ${port}`);
 });
